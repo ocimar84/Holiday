@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="reservation.php" method="post">
+        <div class="elem-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">Your E-mail</label>
+          <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required>
+        </div>
+        <div class="elem-group">
+          <label for="phone">Your Phone</label>
+          <input type="tel" id="phone" name="visitor_phone" placeholder="498-348-3872" pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+        </div>
+        <hr>
+        <div class="elem-group inlined">
+          <label for="start-date">start date</label>
+          <input type="date" id="start-date" name="Start" required>
+        </div>
+        <div class="elem-group inlined">
+          <label for="end-date">end date</label>
+          <input type="date" id="end-date" name="End" required>
+        </div>
+        <div class="elem-group">
+          <label for="department-selection">Department</label>
+          <select id="department-selection" name="department_preference" required>
+              <option value="">Choose your department</option>
+              <option value="online">online</option>
+              <option value="footwear">footwear</option>
+              <option value="floor">floor</option>
+              <option value="office">office</option>
+              <option value="dispatch">dispatch</option>
+              <option value="manager">manager</option>
+              <option value="keepfit">keepfit</option>
+              <option value="driver">driver</option>
+              <option value="cleaner">cleaner</option>
+              <option value="goodsin">goodsin</option>
+      
+          </select>
+        </div>
+        <hr>
+        <div class="elem-group">
+          <label for="message">Anything Else?</label>
+          <textarea id="message" name="visitor_message" placeholder="Tell us anything else that might be important." required></textarea>
+        </div>
+        <button type="submit">Book your holiday</button>
+      </form>
+      
+      ___________________________________________________________________________________
+      
+      Js
+      
+      var currentDateTime = new Date();
+      var year = currentDateTime.getFullYear();
+      var month = (currentDateTime.getMonth() + 1);
+      var date = (currentDateTime.getDate() + 1);
+      
+      if(date < 10) {
+        date = '0' + date;
+      }
+      if(month < 10) {
+        month = '0' + month;
+      }
+      
+      var dateTomorrow = year + "-" + month + "-" + date;
+      var checkinElem = document.querySelector("#checkin-date");
+      var checkoutElem = document.querySelector("#checkout-date");
+      
+      checkinElem.setAttribute("min", dateTomorrow);
+      
+      checkinElem.onchange = function () {
+          checkoutElem.setAttribute("min", this.value);
+      }
+</body>
+</html>
+
