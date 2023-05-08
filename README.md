@@ -1,6 +1,8 @@
-# Escape Room 
+# Holiday booking 
 
-This is a booking application for an escape room company. If the consumer would like to have some fun by trying to complete an escape room they can browse the site where they will find all the rooms available to play, be able to create an account and complete a booking of their chosen date and time and a dashboard for the user to manage all of their bookings. The admin can view all bookings to see the upcoming bookings they have for the days ahead with all information provided.
+
+Sure, I'd be happy to help you with your holiday booking. Could you please provide me with some more information so that I can assist you better?
+Where do you want to go for your holiday? How long do you plan on staying? Do you have a specific budget in mind? Do you have any particular activities or interests you would like to incorporate into your holiday? Let me know and I'll do my best to help you out.
 
 ![Escaperoom responsive](static/readme/escaperoom-responsive.jpg)
 
