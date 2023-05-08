@@ -1,8 +1,10 @@
 # Holiday booking 
 
+If you're looking to book a holiday online, there are several options available to you. Here are the steps you can follow to book your holiday online:
+Decide on your destination and dates of travel. 
+Set a budget for your holiday. This will help you narrow down your options and find the best deals available.
+Overall, booking your holiday online can be a convenient and hassle-free way to plan your trip. Just be sure to read the terms and conditions carefully, and choose a reputable travel website or agency to ensure a smooth and enjoyable experience.
 
-Sure, I'd be happy to help you with your holiday booking. Could you please provide me with some more information so that I can assist you better?
-Where do you want to go for your holiday? How long do you plan on staying? Do you have a specific budget in mind? Do you have any particular activities or interests you would like to incorporate into your holiday? Let me know and I'll do my best to help you out.
 
 ![Escaperoom responsive](static/readme/escaperoom-responsive.jpg)
 
