@@ -2,8 +2,7 @@
 
 If you're looking to book a holiday online, there are several options available to you. Here are the steps you can follow to book your holiday online:
 Decide on your destination and dates of travel. 
-Set a budget for your holiday. This will help you narrow down your options and find the best deals available.
-Overall, booking your holiday online can be a convenient and hassle-free way to plan your trip. Just be sure to read the terms and conditions carefully, and choose a reputable travel website or agency to ensure a smooth and enjoyable experience.
+Holiday Booking platform that includes a time-off tracking system for employees. It allows you to request vacation time, view your remaining balance, and see who else on your team has scheduled time off.
 
 
 ![Escaperoom responsive](static/readme/escaperoom-responsive.jpg)
@@ -77,53 +76,43 @@ Overall, booking your holiday online can be a convenient and hassle-free way to 
 
 # Business goals
 
-The main goal of this project is to give a user the ability to book a specific time and date for which room they would like to play at Escape room.The user should also get a good feeling and know what to expect from each of the games. If the user makes a booking, they should be able to make updates to their booking and also cancel their booking from the user account page.
+The objective of a hooliday booking company in this context would be to provide an exceptional service that meets the needs of employees and companies, leading to a positive experience for the corporate group. This can help build long-term relationships. In addition, it can help the company to organize itself better with the help of this site.
 
 # User experience
 
-As an unauthorised user:
-* I can navigate around the website easily and efficiently to view all of the required content
-* I can view information about the business such as location and opening times
-* I can view all of the rooms to see if I would like to attend
-* I can view all the details about each individual room
-* I can easily create an account so I can make a booking
-* The process of making an account is simple and easy
+As an unauthorized user:
+* I can navigate the site easily and efficiently to view all the content I need
+* I can see login page and password
+* The process of creating an account is simple and easy
 
-As an authorised user:
-* I can do everything an unauthorised user can
-* I can make booking for a specific time and date for what room I would like to play
-* I get an email confirmation of my booking 
-* I can update my booking to change the date or time
-* I can cancel my booking
+As an authorized user:
+* I can do everything an unauthorized user can
+* I can book days to hooliday for a specific time and date.
+* I receive a confirmation email your hooliday.
+* Can I change the day of your my hooliday to change the date or time
+* Can I cancel your hooliday.
 
-As an admin, I can:
-* View all of the bookings that have been placed
-* I can update any of the rooms from the panel
-* I can delete or update any bookings from the panel
+As an administrator, I can:
+* See all available hoolidays.
+* I can authorize or not the requests for hoolidays.
+* Can create new users if necessary.
 
 ## User stories
-* As a user I can register an account so that I can make bookings
-* As a user I can logout so that my information is protected on my device
-* As a user I can navigate easily across the website so that I can view everything and take actions easily
-* As a user I can receive an email after booking so that I can confirm my booking info
-* As a user I can cancel my booking so that I have flexibility in my decisions
-* As a user I can book a time so that I can attend the escape room
-* As a user I can edit a booking so that I can rearrange for a different time
-* As a user I can view my information so that I can check when my bookings are
-* As a user I can login so that I can see my user information and bookings
-* As a user I can see a google maps api location so that I can plan my journey to the company location
-* As a user I can see a footer so that I can read additional information about the company
-* As a user I can read the about us section so that I can decide if its something I would like to do
-* As a user I can see the rooms they have to offer so that I can choose what room Id like to play
-* As a user I can click the book button on the home page so that I can be taken to the booking page
-* As a user I want the site to be secure so no one but me can update a booking I created.
-* As a user, I want the site to be secure so noone but me can delete a booking I created.
+* As a user I can register an account to be able to make holiday reservations.
+* As a user, I can opt out so that my information is protected on my device
+* As a user, I can easily navigate the site so I can easily view everything and take actions
+* As a user, I can receive an email after booking to confirm my booking information
+* As a user, I can cancel my reservation to have flexibility in my decisions
+* As a user, I can view my information to check when my bookings are
+* As a user, I can log in to see my user information and reservations are available.
+* As a user, I can click the book button on the homepage to be taken to the booking page
+* As a user, I want the site to be secure so that no one but me can update a reservation I've created.
 
 
 ## Admin stories
-* As a site admin I can add an option that if the user tries to book an appointment without login/sign up, users will be asked to login/sign up.
-* As a site admin I can view all the bookings so that I can plan the day ahead
-* As a site admin I can display a hero image so that the user knows exactly what webpage this is
+* As a site administrator, I can approve created users
+* As a site administrator, I can approve users' hooliedays.
+* As a site admin I can view all hoolidays so I can plan the next day
 
 ## Agile Methodology
 
