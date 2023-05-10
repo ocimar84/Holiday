@@ -142,15 +142,15 @@ Here is also a screenshot overview
 
 ## CRUD functionality
 
-Escape room handles data with full CRUD Functionality:
+Holiday Booking data with full CRUD Functionality:
 
-**Create** - User can create an account and booking of their specific requirements.
+**Create** - Users can create a new account and make a booking for their specific requirements. This involves creating a new record in the database that contains information about the user and their booking details, such as the date and time of the booking, the number of people in the group, and any special requests or requirements.
 
-**Read** - Users can view their booking in the manage booking section.
+**Read** - Users can view their booking details in the "Manage Booking" section of the app. This involves querying the database for the relevant record(s) based on the user's login credentials or booking ID, and displaying the information in a user-friendly format.
 
-**Update** - Users can update their booking by changing anything within the form.
+**Update** - Users can update their booking by changing any of the details within the booking form. This involves updating the relevant record(s) in the database with the new information, and notifying the user that their changes have been saved.
 
-**Delete** - Users can delete their booking.
+**Delete** - Users can delete their booking from the database. This involves removing the relevant record(s) from the database and notifying the user that their booking has been cancelled.
 
 ## Database diagram
 
