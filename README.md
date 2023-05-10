@@ -110,9 +110,9 @@ As an administrator, I can:
 
 
 ## Admin stories
-* As a site administrator, I can approve created users
+* As a site administrator, I can approve created users.
 * As a site administrator, I can approve users' hooliedays.
-* As a site admin I can view all hoolidays so I can plan the next day
+* As a site admin I can view all hooliedays.
 
 ## Agile Methodology
 
