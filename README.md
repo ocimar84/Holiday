@@ -123,7 +123,7 @@ An Agile approach to creating this app has been applied. Githubs projects was us
 
 By using AGILE methodology in this project I was able to deliver a site which had all required functionality and was able to give even more extra detail when going through the project.
 
-I used GitHub projects board to create the user stories and keep track of my tasks. Here is the link to my board - [Project board](https://github.com/users/fredboys/projects/8/views/1)
+I used GitHub projects board to create the user stories and keep track of my tasks. Here is the link to my board - [Project board](https://github.com/users/ocimar84/projects/2/views/1))
 
 Here is also a screenshot overview
 
