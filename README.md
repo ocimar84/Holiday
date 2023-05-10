@@ -98,15 +98,16 @@ As an administrator, I can:
 * Can create new users if necessary.
 
 ## User stories
-* As a user I can register an account to be able to make holiday reservations.
-* As a user, I can opt out so that my information is protected on my device
-* As a user, I can easily navigate the site so I can easily view everything and take actions
-* As a user, I can receive an email after booking to confirm my booking information
-* As a user, I can cancel my reservation to have flexibility in my decisions
-* As a user, I can view my information to check when my bookings are
-* As a user, I can log in to see my user information and reservations are available.
-* As a user, I can click the book button on the homepage to be taken to the booking page
-* As a user, I want the site to be secure so that no one but me can update a reservation I've created.
+* Provide a registration option for users to create an account and access the booking features.
+* Offer a clear option to opt out of sharing personal information for those who value their privacy.
+* Be designed with easy navigation and user-friendly interface to make it easy for users to find information and take actions.
+* Send a confirmation email after booking to ensure that users have a record of their reservation information.
+* Allow users to cancel their reservation to provide flexibility in their travel plans.
+* Display users' booking information clearly for easy reference.
+* Have a secure login system to ensure the privacy and security of user information and booking details.
+* Provide a prominent "book" button on the homepage to make it easy for users to initiate the booking process.
+* Implement appropriate security measures to ensure that only authorized users can make updates to their reservations.
+* By meeting these user requirements, a holiday booking site can offer a positive user experience that is easy to use, secure, and meets the needs of its customers.
 
 
 ## Admin stories
