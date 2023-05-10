@@ -81,21 +81,26 @@ The objective of a holiday booking company in this context would be to provide a
 # User experience
 
 As an unauthorized user:
-* I can navigate the site easily and efficiently to view all the content I need
-* I can see login page and password
-* The process of creating an account is simple and easy
+* Ability to access all the features and functions available to an authorized user, such as booking holidays, changing or canceling bookings, and viewing personal information.
+* A user-friendly interface that makes it easy to navigate the site and find the desired information or features.
+* Clear and concise instructions on how to use the site's features and functions, including any necessary steps for booking or modifying a holiday.
+* A reliable and secure system for booking holidays, changing bookings, and canceling bookings.
+* Prompt and effective customer support, including email or phone support, for any questions or issues that may arise during the booking process or during the holiday itself.
 
 As an authorized user:
-* I can do everything an unauthorized user can
-* I can book days to holiday for a specific time and date.
-* I receive a confirmation email your holiday.
-* Can I change the day of your my holiday to change the date or time
-* Can I cancel your holiday.
+* Navigate the site easily and efficiently to view all the content you need.
+* Create an account with a simple and easy process.
+* Book a holiday for a specific time and date, choosing from available options and making payment through the site's secure payment gateway.
+* Receive a confirmation email once the booking is complete, which includes all the relevant details about the holiday.
+* Change the day of your holiday to a different date or time, if the website offers this feature. This may be subject to availability and may require additional payment if the new dates are more expensive than the original booking.
+* Cancel your holiday, if the website offers this feature. The cancellation policy would typically be outlined in the terms and conditions.
 
 As an administrator, I can:
-* See all available holidays.
-* I can authorize or not the requests for holidays.
-* Can create new users if necessary.
+* Viewing all available holidays and managing the booking system to ensure that the website's inventory is up-to-date and accurate.
+* Reviewing and authorizing holiday requests from users, based on criteria such as availability, employee schedule, and other factors.
+* Creating new user accounts if necessary, in order to provide access to the site's features and functions for new employees or customers.
+* Managing user accounts and permissions, including setting access levels, resetting passwords, and monitoring activity on the site.
+* Troubleshooting technical issues and providing support to users, including responding to inquiries and resolving any problems that arise.
 
 ## User stories
 * Provide a registration option for users to create an account and access the booking features.
@@ -111,13 +116,18 @@ As an administrator, I can:
 
 
 ## Admin stories
-* As a site administrator, I can approve created users.
-* As a site administrator, I can approve users' holiedays.
-* As a site admin I can view all holiedays.
+* User Account Approval:
+As an administrator, you may receive a notification that a new user has registered on the site. You would then review the user's account details, such as name, email, and other information, to verify that they are a legitimate user. You would also check that their account has been created with the appropriate level of access and permissions, based on their role and responsibilities. Once you have confirmed that the user's account is valid and complete, you would approve their account and notify them that they can now log in to the site.
+
+* Holiday Request Approval:
+As an administrator, you would receive notifications when a user has requested a holiday booking. You would review the request details, such as the dates and location of the holiday, and check that the requested dates are available and that the user has sufficient vacation time or other permissions to take the holiday. You would also check that the user's account is in good standing, with no outstanding balances or other issues that would prevent them from booking a holiday. If the request is valid and meets all the necessary criteria, you would approve the holiday request and notify the user that their booking has been confirmed.
+
+* Holiday Inventory Management:
+As an administrator, you would have access to the site's inventory management system, which allows you to view all available holidays and make updates as necessary. You would check that all the holidays listed on the site are up-to-date and accurate, with correct pricing, availability, and other details. You would also monitor the inventory levels to ensure that there are enough holidays available to meet user demand, and make adjustments as necessary to avoid overbooking or underbooking. If there are any issues or discrepancies with the inventory, you would investigate and resolve them promptly, to ensure that users have a positive experience when using the site.
 
 ## Agile Methodology
 
-An Agile approach to creating this app has been applied. Githubs projects was used to track user stories and implement ideas based on their level of importance for allowing use of the app with no loss of functionality or user experience.Two categories were created indicating their level of importance, those were:
+Using Github projects to track user stories and organize tasks based on their level of importance is a key aspect of Agile methodology. By breaking down development into smaller, more manageable tasks, and prioritizing them based on user needs and feedback, developers can ensure that the app meets user expectations and delivers value in a timely and efficient manner. The use of Agile methodology can also help developers to adapt to changes in user requirements or market conditions, and to continuously improve the app over time based on user feedback and usage data.
 
 * MUST HAVE
 * SHOULD HAVE
