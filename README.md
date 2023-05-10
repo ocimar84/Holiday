@@ -76,7 +76,7 @@ Holiday Booking platform that includes a time-off tracking system for employees.
 
 # Business goals
 
-The objective of a hooliday booking company in this context would be to provide an exceptional service that meets the needs of employees and companies, leading to a positive experience for the corporate group. This can help build long-term relationships. In addition, it can help the company to organize itself better with the help of this site.
+The objective of a holiday booking company in this context would be to provide an exceptional service that meets the needs of employees and companies, leading to a positive experience for the corporate group. This can help build long-term relationships. In addition, it can help the company to organize itself better with the help of this site.
 
 # User experience
 
@@ -87,14 +87,14 @@ As an unauthorized user:
 
 As an authorized user:
 * I can do everything an unauthorized user can
-* I can book days to hooliday for a specific time and date.
-* I receive a confirmation email your hooliday.
-* Can I change the day of your my hooliday to change the date or time
-* Can I cancel your hooliday.
+* I can book days to holiday for a specific time and date.
+* I receive a confirmation email your holiday.
+* Can I change the day of your my holiday to change the date or time
+* Can I cancel your holiday.
 
 As an administrator, I can:
-* See all available hoolidays.
-* I can authorize or not the requests for hoolidays.
+* See all available holidays.
+* I can authorize or not the requests for holidays.
 * Can create new users if necessary.
 
 ## User stories
@@ -112,8 +112,8 @@ As an administrator, I can:
 
 ## Admin stories
 * As a site administrator, I can approve created users.
-* As a site administrator, I can approve users' hooliedays.
-* As a site admin I can view all hooliedays.
+* As a site administrator, I can approve users' holiedays.
+* As a site admin I can view all holiedays.
 
 ## Agile Methodology
 
